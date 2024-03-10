@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/doczy/static/css/main.1bbb5039.css",
+    "main.js": "/doczy/static/js/main.56f2f856.js",
+    "static/media/Final Logo.jpg": "/doczy/static/media/Final Logo.763c45990aa3a3716b98.jpg",
+    "static/media/ceoandfounder.jpg": "/doczy/static/media/ceoandfounder.bdc334d969d68719c20b.jpg",
+    "static/media/adv.jpg": "/doczy/static/media/adv.7777b8929d33d7d54b64.jpg",
+    "static/media/loader1.png": "/doczy/static/media/loader1.e2d512bba49d0904dce4.png",
+    "static/media/what.jpg": "/doczy/static/media/what.27016390b04bf1a45969.jpg",
+    "static/media/how.jpg": "/doczy/static/media/how.623a9a0b62453c8375e7.jpg",
+    "index.html": "/doczy/index.html",
+    "main.1bbb5039.css.map": "/doczy/static/css/main.1bbb5039.css.map",
+    "main.56f2f856.js.map": "/doczy/static/js/main.56f2f856.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1bbb5039.css",
+    "static/js/main.56f2f856.js"
+  ]
+}
