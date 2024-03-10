@@ -1,0 +1,81 @@
+
+.home{
+    background-color: #000000; 
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+.sidenav {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 200px; /* Adjust width as needed */
+    height: 100%; /* Ensures the sidebar takes full height */
+    background-color: #333333; /* Darker background color */
+    padding-top: 25px; /* Add top padding to prevent content from overlapping with the navbar */
+}
+
+.sidenav__logo {
+    width: 120px;
+    margin: 0 auto 25px; /* Center the logo vertically and add bottom margin */
+}
+
+.sidenav__buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center button items horizontally */
+    flex-grow: 1; /* Allow buttons to take remaining vertical space */
+}
+
+.sidenav__button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    background: 0;
+    border: 0;
+    margin: 5px 0;
+    padding: 10px 15px;
+    border-radius: 15px;
+    width: 80%; /* Adjust button width as needed */
+}
+
+.sidenav__button:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.128);
+}
+
+.sidenav__button > span {
+    font-size: 18px;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+
+.sidenav__more {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Add bottom margin for spacing */
+}
+
+.logout__button {
+    font-size: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.211);
+    border: 0;
+    padding: 10px 20px; /* Adjust padding as needed */
+}
+
+.logout__button:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.424);
+}

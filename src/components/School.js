@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 function MyComponent(props) {
   const [showDropdown, setShowDropdown] = useState(false);
-  const [schoolName, setSchoolName] = useState("");
+  const [schoolName, setSchoolName] = useState("School Name");
   const [standard, setStandard] = useState("");
   const [rollNumber, setRollNumber] = useState("");
   const [section, setSection] = useState("");
@@ -25,7 +25,7 @@ function MyComponent(props) {
     } else {
       // Proceed to the next page
       // You can navigate to the next page here
-      navigate("/signup2");
+      navigate("/Home");
     }
   };
 
@@ -98,7 +98,8 @@ function MyComponent(props) {
           z-index: 1;
           max-height: 150px;
           overflow-y: auto;
-          width:100%;        }
+          width:100%;
+        }
         .dropdown ul {
           list-style-type: none;
           padding: 0;

@@ -1,0 +1,616 @@
+/* Global styles */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    
+}
+
+
+/* Flex container for layout */
+.flex-container {
+    display: flex;
+    height: 100%;
+    overflow: hidden; /* Prevent page content overflow */
+}
+
+/* Sidebar container */
+.container1 {
+    width: 12rem;
+    background-color: #333333;
+    padding-top: 25px;
+    color: white;
+    height: auto;
+ 
+}
+
+/* Page content container */
+.container2 {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #f0f0f0;
+    overflow-y: auto; /* Add scrollbar if content exceeds container height */
+}
+
+/* Logo styling */
+.sidenav__logo {
+    width: 120px;
+    margin: 0 auto 25px;
+}
+
+/* Sidebar buttons container */
+.sidenav__buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+}
+
+/* Sidebar button styling */
+.sidenav__button {
+    display: flex;
+    align-items: center;
+    color: white;
+    background: 0;
+    border: 0;
+    margin: 5px 0;
+    padding: 10px 15px;
+    border-radius: 15px;
+    width: 80%;
+}
+
+.sidenav__button:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.128);
+}
+
+/* More button styling */
+.sidenav__more {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* Page content container */
+.container2 {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #f0f0f0;
+    overflow-y: auto; /* Add scrollbar if content exceeds container height */
+}
+
+/* Individual page content */
+.page-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    /* Add your custom styles here */
+    /* For example: */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Remove underline from links */
+a {
+    text-decoration: none;
+}
+
+/* Styling for button elements */
+button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .container1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .sidenav__buttons {
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .sidenav__button {
+        width: auto;
+        margin: 5px;
+    }
+
+    .sidenav__more {
+        margin-bottom: 0;
+    }
+
+    .container2 {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+
+
+
+#section-1{
+    padding-left: 90px;
+    padding-right: 50px;
+    width: 100vw;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#non-logo{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+#logo{
+    border: 2px solid black;
+}
+#logo img{
+    width: 490px;
+}
+#non-logo h1{
+    font-size: 50px;
+}
+#non-logo h3{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.btn{
+    margin-top: 40px;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10px;
+    border: 0px;
+}
+.btn:hover{
+    transition: 1s ease-in-out;
+    background-color: #161428;
+    color: #e7b8c2;
+}
+#section-2{
+    background-color: #47474b;
+    margin-left: 5px;
+    /* border: 2px solid red; */
+    /* width: 95vw; */
+    /* height: 50vh; */
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 200px;
+    padding: 20px;
+}
+#adv-image{
+    background-image: url("../online-images/adv.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#how-image{
+    background-image: url("../online-images/how.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#what-image{
+    background-image: url("../online-images/what.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/* //..............................................................................................................// */
+
+#adv-block{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#adv-block p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+#adv-block h1{
+    font-size: 40px;
+}
+#adv-image{
+    width: 250px;
+    height: 250px;
+    margin-right: 105px;
+}
+#advantages{
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ........................................................................................................................... */
+
+#what-image{
+    width: 250px;
+    height: 250px;
+}
+#what{
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#what-block{
+    margin-left: 10px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#what-block p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+#what-block h1{
+    font-size: 40px;
+}
+
+/* ....................................................................................... */
+
+#how-block{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#how-block p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+#how-block h1{
+    font-size: 40px;
+}
+#how-image{
+    width: 250px;
+    height: 250px;
+}
+#how{
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#comming-soon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+   
+    height: 70px;
+    background: linear-gradient(45deg,#d2001a,#7462ff,#f48e21,#23d5ab);
+    background-size: 300% 300%;
+    animation: color 12s ease-in-out infinite;
+}
+/* #comming-soon h1{
+    color: #172437;
+} */
+@keyframes color {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+         background-position: 100% 50%;
+    }100%{
+        background-position: 0 50%;
+    }
+}
+
+/* Style for accordion container */
+.accordion {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Style for accordion items */
+  .accordion-item {
+    border: 1px solid #211616;
+    margin-bottom: 10px;
+    width: 80%;
+  }
+  
+  /* Style for accordion headers */
+  .accordion-header {
+    background-color: #744343;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 25px;
+  }
+  
+  /* Style for accordion content (hidden by default) */
+  .accordion-content {
+    display: none;
+    padding: 10px;
+    font-size: 25px;
+
+    font-family: 'Montserrat', sans-serif;
+  }
+#drop-down{
+    margin-top: 50px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+}
+.acc12{
+    width:90%;
+    /* display: flex;
+    justify-content: space-around; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: auto;
+   
+}
+#contact-us{
+    margin-top: 20px;
+
+    height: 70px;
+    background-color: #172437;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: white;
+}
+#contact-us i{
+    color: white;
+    text-decoration: none;
+}
+
+
+.icon-container {
+    position: relative;
+    display: inline-block;
+}
+
+.icon {
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.recommendation {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+    bottom: 100%; /* Adjusted to place it above the icon */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#ceo-cont{
+    /* border: 2px solid red; */
+   
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ceo{
+    padding: 10px;
+    width: 80%;
+    height: 90%;
+    border: 5px solid red;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+
+    animation: mymove 3s infinite;
+}
+@keyframes mymove {
+    50%{
+        border-color: green
+    }
+}
+#ceo-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/* #ceo h1{
+    text-align: center;
+} */
+#ceo-img{
+    width: 250px;
+    height: 250px;
+    /* border: 2px solid white; */
+    background: url("../online-images/ceoandfounder.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#ceo-text{
+    font-size: 20px;
+    width: 40%;
+}
+#ceo-nav{
+    width: 100%;
+    height: 40px;
+    /* border: 2px solid white; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#ceo-nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 27px;
+}
+@media (max-width:1055px){
+    #ceo h1{
+        font-size: 20px;
+    }
+    #ceo-text{
+        font-size: 16px;
+    }
+    #non-logo h1 {
+        font-size: 70px;
+    }
+    #non-logo h3 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width:890px){
+    #logo img {
+        width: 300px;
+    }
+    #section-2{
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
+        margin-top: 30px;
+    }
+    #section-2 p{
+        font-size: 16px
+    }
+    #section-2 h1{
+        font-size:30px ;
+    }
+    #non-logo h1 {
+        font-size: 60px;
+    }
+    #non-logo h3 {
+        font-size: 30px;
+    }
+    .btn {
+        margin-top: 30px;
+    }
+    #adv-image {
+        width: 395px;
+        margin-right: 45px;
+    }
+    #what-image {
+        width: 352px;
+    }
+    #how-image{
+        margin-left: 10px;
+        width: 500px;
+    }
+    .accordion-header{
+        font-size: 20px;
+    }
+    .accordion-content{
+        font-size: 20px;
+    }
+}
+
+@media (max-width:600px) {
+    #section-1{
+        margin-top: 20px;
+    }
+    #non-logo h1 {
+        font-size: 50px;
+        margin-left:-80px;
+    }
+    #logo{
+        margin-top: 0px;
+    }
+    #non-logo h3 {
+        font-size:15px;
+        margin-left: -80px;
+    }
+    .btn {
+        margin-left: -50px;    
+        margin-top: 37px;
+        width: 230px;
+    }
+    #logo img {
+        width: 125px;
+        margin-top: -10px;
+        margin-left: -90px
+    }
+    #logo {
+        margin-top: -140px;
+    }
+    #advantages {
+        margin: 0px;
+    }
+    #section-2 p {
+        font-size: 11px;
+    }
+    #section-2 h1 {
+        font-size: 17px;
+    }
+    #adv-image{
+        height: 110px;
+        width: 160px;
+    }
+    #what-image {
+        height: 110px;
+        width: 160px; 
+    }
+    #what{
+        margin: 2px;
+    }
+    #what-image{
+        margin-left: -20px;
+    }
+    #how-image{
+        height: 110px;
+        width: 160px;  
+    }
+    #how{
+        margin: 0px;
+    }
+    #comming-soon {
+        height: 50px;
+        font-size: 13px;
+    }
+    #ceo-img{
+        width: 150px;
+        height: 150px;
+    }
+    #ceo-2 {
+        flex-direction: column;
+    }
+    #ceo-text {
+        font-size: 13px;
+        width: 100%;
+    }
+    #ceo{
+        height:100%
+    }
+}
